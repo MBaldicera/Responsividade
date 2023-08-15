@@ -57,6 +57,9 @@
 .opcoes{
     display: none;
 }
+.container-texto{
+    display: none;
+}
 
 @media screen and (min-width:1024px) {
     .container-titulo{
@@ -91,7 +94,23 @@
     }
     .opcoes-botao{
         display: none;
+    }   
+}
+@media screen and (min-width: 1728px) {
+    .container-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
     }
-    
+    .cabecalho{
+        padding: 0 2em;
+    }
+    .opcoes{
+        margin-right: auto;
+    }
+    .container-texto{
+        display: block;
+    }
 }
 
